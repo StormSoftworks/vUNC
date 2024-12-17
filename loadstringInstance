@@ -1,0 +1,5 @@
+local a = gethui()
+
+if a == game:GetService("CoreGui") then
+    return 'WorksInstance'
+end
